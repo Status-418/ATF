@@ -7,7 +7,7 @@ URL = 'http://localhost:5000/v1/alerts/raw'
 
 data = dict()
 data['alert'] = 'PH Short Urls'
-data['data'] = 'http://ow.ly/aiFs30lW4w1'
+data['data'] = 'https://is.gd/ob8vtI?v=v8.0'
 
 results = requests.post(URL, json=data)
 
